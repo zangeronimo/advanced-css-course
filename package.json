@@ -1,0 +1,14 @@
+{
+  "name": "advanced-css-course",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/zangeronimo/advanced-css-course.git",
+  "author": "Luciano Zangeronimo <zangeronimo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "compile:sass": "node-sass ./sass/main.scss ./css/style.css"
+  },
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
